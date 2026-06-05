@@ -1,0 +1,153 @@
+/* --- Basic Page Setup --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 60, 70);
+}
+
+/* --- Top Navigation Header --- */
+.header-nav {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: block;
+    clear: both;
+}
+
+.brand-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(20, 60, 45);
+    float: left;
+}
+
+.menu-links {
+    float: right;
+    margin-top: 5px;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: rgb(80, 90, 100);
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.login-button {
+    background-color: rgb(12, 74, 56);
+    color: rgb(255, 255, 255);
+    padding: 6px 15px;
+    border-radius: 4px;
+}
+
+/* --- Large Top Hero Section --- */
+.hero-banner {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 40px;
+    clear: both;
+}
+
+/* Plain white solid overlay container */
+.glass-box {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+}
+
+.glass-box h1 {
+    font-size: 32px;
+    color: rgb(12, 74, 56);
+    margin-bottom: 15px;
+}
+
+.glass-box p {
+    font-size: 14px;
+    color: rgb(70, 80, 90);
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.about-button {
+    display: inline-block;
+    background-color: rgb(12, 74, 56);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+/* --- Offers Section --- */
+.offers-container {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.offers-container h2 {
+    font-size: 28px;
+    color: rgb(12, 74, 56);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Vertical Row Block */
+.item-row {
+    background-color: rgb(242, 244, 247);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+.item-image {
+    width: 180px;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    border-radius: 8px;
+}
+
+/* Beautiful web photos mapped to each unique class */
+.pic-1 { background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80'); }
+.pic-2 { background-image: url('https://images.unsplash.com/photo-1472214222541-d510753a8707?auto=format&fit=crop&w=400&q=80'); }
+.pic-3 { background-image: url('https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=400&q=80'); }
+
+.item-text {
+    margin-left: 200px;
+    padding-top: 10px;
+}
+
+.item-text h3 {
+    font-size: 18px;
+    color: rgb(40, 50, 60);
+    margin-bottom: 8px;
+}
+
+.item-text p {
+    font-size: 13px;
+    color: rgb(90, 100, 115);
+    line-height: 1.4;
+}
+
+/* --- Simple Footer --- */
+.bottom-footer {
+    background-color: rgb(12, 74, 56);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+    clear: both;
+}
